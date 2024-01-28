@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import ColorSwatch from "./components/ColorSwatch";
+import Navbar from "./Navbar";
+import ColorSwatch from "./ColorSwatch";
 
 function App() {
   const [colors, setColors] = React.useState({
